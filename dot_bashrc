@@ -1,0 +1,14 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+export SSH_AUTH_SOCK=/home/mas/.bitwarden-ssh-agent.sock
+
+HISTSIZE=10000
+HISTFILESIZE=20000
+
+alias ls="ls --color=auto"
+alias grep='grep --color=auto'
+alias j=jobs
+
+export PATH="$HOME/.local/bin:$PATH"
+# PS1='[\u@\h \W]\$ '
