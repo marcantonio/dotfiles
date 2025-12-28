@@ -1,9 +1,0 @@
-[init]
-	defaultBranch = main
-[pull]
-	rebase = true
-[push]
-	autoSetupRemote = true
-[user]
-	name = Marc Soda
-	email = marc@soda.fm
