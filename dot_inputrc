@@ -1,0 +1,6 @@
+set completion-ignore-case off
+set completion-prefix-display-length 2
+set show-all-if-ambiguous off
+set show-all-if-unmodified off
+set match-hidden-files on
+set visible-stats off

@@ -5,9 +5,9 @@
 # (don't mess with these directly, just overwrite them here!)
 source ~/.local/share/omarchy/default/bash/rc
 
-export SSH_AUTH_SOCK=/home/mas/.bitwarden-ssh-agent.sock
+bind -f ~/.inputrc
 
-set completion-ignore-case off
+export SSH_AUTH_SOCK=/home/mas/.bitwarden-ssh-agent.sock
 
 alias ls="ls --color=auto"
 alias grep='grep --color=auto'
